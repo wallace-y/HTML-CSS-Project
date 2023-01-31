@@ -130,3 +130,22 @@ section .container {
   margin-left: 15px;
   list-style: none;
 }
+
+.footer-item a {
+  color: #625ff1;
+  text-decoration: none;
+}
+
+/* skills grid formatting */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
