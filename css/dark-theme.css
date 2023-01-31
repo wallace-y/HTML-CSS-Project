@@ -1,6 +1,6 @@
 /* colours */
 .primary-color {
-  background-color: #bbbf11;
+  background-color: #625ff1;
 }
 
 .secondary-color {
@@ -30,7 +30,7 @@
 
 /* visited link */
 .navbarSection a:visited {
-  color: #bbbf11;
+  color: #625ff1;
 }
 
 /* mouse over link */
@@ -65,7 +65,7 @@
 
 @media (prefers-color-scheme: dark) {
   .primary-color {
-    background-color: #bbbf11;
+    background-color: #625ff1;
   }
 
   .secondary-color {
