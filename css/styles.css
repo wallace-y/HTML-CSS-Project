@@ -8,6 +8,12 @@
 
 /* navbar section styling */
 
+/* hamburger for mobile */
+
+.icon {
+  display: none;
+}
+
 .navbarSection {
   width: 100%;
   height: 50px;
@@ -18,6 +24,11 @@
   display: flex;
 }
 
+#myLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .nav-item {
   margin-top: 15px;
   margin-right: 15px;
@@ -25,8 +36,9 @@
 }
 
 .navButton {
+  float: left;
+  margin-top: 10px;
   margin-left: 15px;
-  margin-right: auto;
   padding: 5px;
   border-radius: 15px;
 }
@@ -157,5 +169,35 @@ section .container {
 
   .container {
     flex-direction: column;
+  }
+
+  /* hamburger styling */
+
+  .navButton {
+    float: none;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+
+  #myLinks {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-item {
+    background-color: #fff;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 15px;
+  }
+
+  .nav-link {
+    display: none;
   }
 }
